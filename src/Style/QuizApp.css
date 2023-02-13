@@ -1,0 +1,82 @@
+.questionCard input {
+	margin: 0px;
+	margin-left: auto;
+	width: 2rem;
+	height: 2rem;
+}
+
+.questionCard label {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	accent-color: #E3170A;
+}
+
+.questionCard li {
+	padding: 10px 0px 10px 0px;
+}
+
+.questionCard label:hover {
+	cursor: pointer;
+}
+
+
+button {
+	color: #EEEEEE;
+	padding: 15px;
+	background-color: rgb(120, 125, 255);
+	border: 3px solid rgb(0, 0, 0);
+	border-radius: 25px;
+	font-size: 1em;
+	margin-right: 15px;
+	width: 40vw;
+}
+
+button:hover {
+	background-color: rgb(160, 163, 253);
+	cursor: pointer;
+}
+
+.myButtons {
+	display: flex;
+}
+
+.card {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 20px;
+	background-color: #8B80F9;
+	font-size: 2rem;
+	color: #EEEEEE;
+	font-weight: bold;
+	min-height: 400px;
+	width: 70vw;
+	margin-bottom: 100px;
+	overflow: auto;
+}
+
+.answerList {
+	margin: 0px auto 0px auto;
+	width: 70%;
+}
+
+.App-header {
+	padding-top: 100px;
+}
+
+input {
+	font-size: inherit;
+	font-family: inherit;
+	margin-bottom: 10px;
+	border-radius: 12px;
+}
+
+
+.link {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	margin: 0px 0px 20px 0px;
+}
