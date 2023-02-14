@@ -49,15 +49,14 @@ function QuizApp() {
 						<div>Q- {questions[count].question}</div>
 						<div className="answerList">
 							{questions[count].options.map((q, i) => {
-								return (<li>
+								return (
 									<label key={i}>
 										{questions[count].options[i]}
 										<input type="radio" name="mcq" checked={answers[count] === i} onChange={() => {
 											answers[count] = i;
 											setAnswers([...answers]);
 										}} />
-									</label>
-								</li>)
+									</label>)
 							})}
 						</div>
 					</div>)) ||
